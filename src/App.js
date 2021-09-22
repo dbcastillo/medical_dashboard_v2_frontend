@@ -1,8 +1,13 @@
+import React from 'react';
+import './App.css';
+import LoginPage from './LoginPage'
 
 function App() {
   return (
     <div className="App">
-      <h2>Medical Dashboard v2</h2>
+      <div>
+        < LoginPage />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,95 @@
+body {
+  background-color: rgba(123, 218, 245, 0.735);
+}
+
+h1 {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+h3 {
+  color: grey;
+}
+
+h4 {
+  margin-top: 5%
+}
+
+input {
+  height: 25px;
+}
+
+.login-div {
+  display: grid;
+  background-color:whitesmoke;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%); /* Move element sideways to center */
+  width: 35%;
+  height: 80%;
+}
+
+.role-img {
+  height: 50%;
+  width: 70%; 
+  padding-top: 20%;
+  grid-column: 1/4;
+}
+
+.username-img {
+  left: 50%;
+  top: 80%;
+  transform: translate(-20%, 25%);
+  width: 4%;
+}
+
+.pass-img {
+  left: 50%;
+  top: 80%;
+  transform: translate(-20%, 25%);
+  width: 4%;
+}
+
+.login-button {
+  left: 50%;
+  transform: translate(130%, 0);
+}
+
+.doctor-card {
+  margin: 0 auto;
+  background-color: rgba(255, 174, 0, 0.214);
+  /* background-color: rgba(24, 24, 23, 0.33); */
+  border-radius: 90%;
+  width: 80%;
+  height: 80%;
+}
+
+.nurse-card {
+  margin: 0 auto;
+  background-color: rgba(17, 0, 255, 0.111);
+  /* background-color: rgba(24, 24, 26, 0.2); */
+  border-radius: 90%;
+  width: 80%;
+  height: 80%;
+}
+
+.assistant-card {
+  margin: 0 auto;
+  background-color: rgba(0, 255, 8, 0.111);
+  /* background-color: rgba(13, 14, 13, 0.111); */
+  border-radius: 90%;
+  width: 83%;
+  height: 83%;
+}
+
+.dr-logo-container {
+  margin: 0 10% 0 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.form-div {
+  margin-top: 20%;
+}
